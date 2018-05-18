@@ -1,0 +1,11 @@
+[target.arm-linux-androideabi]
+linker = "/opt/fake-ld-arm.sh"
+ar = "arm-linux-androideabi-ar"
+
+[target.armv7-linux-androideabi]
+linker = "/opt/fake-ld-armv7.sh"
+ar = "arm-linux-androideabi-ar"
+
+[target.aarch64-linux-android]
+linker = "aarch64-linux-android-gcc"
+ar = "aarch64-linux-android-ar"
